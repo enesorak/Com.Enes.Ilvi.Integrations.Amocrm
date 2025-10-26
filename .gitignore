@@ -1,0 +1,80 @@
+# #################### #
+# # .NET / Visual Studio #
+# #################### #
+
+# Kullanıcıya özel dosyalar
+*.suo
+*.user
+*.userosscs
+*.sln.docstates
+*.dll.config
+*.exe.config
+
+# Visual Studio 2019/2022 modern IDE ayarları
+# Bu dizin pencere düzenleri, yerel ayarlar ve geçici veriler gibi
+# kullanıcıya özel her şeyi içerir.
+.vs/
+
+# Derleme sonuçları (Build artifacts)
+[Aa]rtifacts/
+[Bb]in/
+[Oo]bj/
+[Rr]elease/
+[Rr]eleases/
+[Dd]ebug/
+[Dd]ebugPublic/
+
+# Eski NuGet paketleri (packages.config kullanan projeler için)
+packages/
+*.nupkg
+*.snupkg
+
+# Test sonuçları
+TestResults/
+*.trx
+
+# Rider / Resharper
+_ReSharper*/
+*.pidb
+*.dotsettings
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Web projeleri için (npm, bower vb.)
+node_modules/
+wwwroot/lib/
+bower_components/
+
+# Gizli (Secret) ve yerel (Local) ayar dosyaları
+# API key'ler, veritabanı bağlantı dizeleri gibi hassas bilgileri
+# ASLA kaynak kod deposuna göndermeyin.
+# User Secrets kullanmak en iyi yöntemdir.
+*.secrets.json
+*.local.json
+appsettings.Development.json
+*.env
+*.env.local
+!*.env.example
+
+# Diğer
+*.log
+*.cache
+*.sdf
+*.vsdconfig
+
+# İşletim sistemi özel dosyaları
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~

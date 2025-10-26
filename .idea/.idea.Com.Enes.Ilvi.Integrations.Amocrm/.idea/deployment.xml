@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="AppSrv-Amocrm-Ilvi">
+        <serverdata>
+          <mappings>
+            <mapping local="" web="" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="AppSrv-Amocrm-Mbrand">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/.run" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="AppSrv-ftp">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/.run" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="Asana Server">
+        <serverdata>
+          <mappings>
+            <mapping local="$PROJECT_DIR$/.run" web="/" />
+            <mapping local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
